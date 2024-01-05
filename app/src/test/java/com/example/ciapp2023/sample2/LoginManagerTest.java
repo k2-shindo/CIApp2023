@@ -19,7 +19,7 @@ public class LoginManagerTest {
     @Test(expected = ValidateFailedException.class)
     public void testSetupFailed() throws ValidateFailedException{
         loginManager = new LoginManager();
-        loginManager.register("Testuser1", "password");
+        loginManager.register("testuser1", "password");
     }
 
     @Test
